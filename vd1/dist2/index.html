@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CodePen - ScrollPane</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div id="ScrollPane">
+      <div
+        class="scr pane prt"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-41-9726.jpg.webp)"
+        data-id="Welcome"
+      >
+        <div class="ct"><b>Scroll !</b></div>
+        <div class="scrolldown">Scroll down<br /><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+      </div>
+      <div
+        class="scr pane prt an"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-6-4443.jpg.webp)"
+        data-id="scr02"
+      >
+        <div class="ct"><b>Fullscreen</b></div>
+        <div class="scrolldown">Scroll down<br /><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+      </div>
+      <div
+        class="scr pane prt an"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-8-5983.jpg.webp)"
+        data-id="scr03"
+      >
+        <div class="ct"><b>Fullscreen</b></div>
+        <div class="scrolldown">Scroll down<br /><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+      </div>
+      <div class="scr prt horiz">
+        <div class="spane">
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-1-2340.jpg.webp)"
+            data-id="Horizontal01"
+          >
+            <div class="ct">
+              <span>Horizontal<br /><b>Slide A</b></span>
+            </div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-7-9281.jpg.webp)"
+            data-id="Horizontal02"
+          >
+            <div class="ct">
+              <span>Horizontal<br /><b>Slide B</b></span>
+            </div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-2-731.jpg.webp)"
+            data-id="Horizontal03"
+          >
+            <div class="ct">
+              <span>Horizontal<br /><b>Slide C</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="scr pane prt an"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-3-2159.jpg.webp)"
+        data-id="scr04"
+      >
+        <div class="ct"><b>Fullscreen</b></div>
+      </div>
+      <div class="scr prt tab">
+        <div class="left spane">
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-2-1783.jpg.webp)"
+            data-id="Vertical01"
+          >
+            <div class="ct"><b>Slide A</b></div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-4-8282.jpg.webp)"
+            data-id="Vertical02"
+          >
+            <div class="ct"><b>Slide B</b></div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_04/cong-vien-xanh-mat-30-6718.jpg.webp)"
+            data-id="Vertical03"
+          >
+            <div class="ct"><b>Slide C</b></div>
+          </div>
+        </div>
+        <div class="right scrzone" style="background: red">
+          <div class="ct">
+            <span>Vertical Split<br /><b>Left</b></span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="scr pane prt an"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_04/cong-vien-xanh-mat-23-8842.jpg.webp)"
+        data-id="scr05"
+      >
+        <div class="ct"><b>Fullscreen</b></div>
+      </div>
+      <div class="scr prt tab">
+        <div class="left scrzone" style="background: #e6e0d5">
+          <div class="ct">
+            <span>Vertical Split<br /><b>Right</b></span>
+          </div>
+        </div>
+        <div class="right spane">
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_04/cong-vien-xanh-mat-18-5967.jpg.webp)"
+            data-id="Vertical04"
+          >
+            <div class="ct"><b>Slide A</b></div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-3-6999.jpg.webp)"
+            data-id="Vertical05"
+          >
+            <div class="ct"><b>Slide B</b></div>
+          </div>
+          <div
+            class="pane an"
+            style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-4-6479.jpg.webp)"
+            data-id="Vertical06"
+          >
+            <div class="ct"><b>Slide C</b></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="scr pane prt an"
+        style="background: url(https://image.plo.vn/w2000/Uploaded/2024/wpdhncwqr/2024_04_15/sai-gon-nang-nong-3-6999.jpg.webp)"
+        data-id="Conclusion"
+      >
+        <div class="ct">
+          <span><b>THE END</b><br />Works with Fox, Chrome, Edge, Opera, ...</span>
+        </div>
+        <div class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i><br />Scroll up</div>
+      </div>
+    </div>
+
+    <div id="Helper"></div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
